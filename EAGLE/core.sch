@@ -2618,7 +2618,6 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="0.5" y1="-1.65" x2="0.5" y2="-1.8" width="0.1016" layer="51"/>
 <wire x1="0.5" y1="-1.8" x2="1" y2="-1.8" width="0.1016" layer="51"/>
 <wire x1="1" y1="-1.8" x2="1" y2="-1.6" width="0.1016" layer="51"/>
-<wire x1="-0.85" y1="-1.6" x2="-1.4" y2="-1.05" width="0.2032" layer="51"/>
 <wire x1="-1.4" y1="1.6" x2="-1.4" y2="-1.05" width="0.2032" layer="51"/>
 <circle x="0" y="0" radius="1.1" width="0.2032" layer="51"/>
 <smd name="4" x="-0.9" y="1.45" dx="1.1" dy="1.4" layer="1"/>
@@ -2627,10 +2626,17 @@ Source: http://www.osram.convergy.de/</description>
 <smd name="1" x="-0.9" y="-1.45" dx="1.1" dy="1.4" layer="1"/>
 <text x="2.9438" y="-2.4534" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="4.427" y="-2.4518" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<text x="-2.1686" y="-1.8568" size="0.8128" layer="21" ratio="15">1</text>
-<rectangle x1="0.1" y1="0.1" x2="0.5" y2="0.5" layer="21"/>
-<rectangle x1="0.1" y1="-0.5" x2="0.5" y2="-0.1" layer="21"/>
-<rectangle x1="-0.5" y1="-0.5" x2="-0.1" y2="-0.1" layer="21"/>
+<wire x1="-1.397" y1="0.508" x2="-1.397" y2="-0.508" width="0.2032" layer="21"/>
+<wire x1="-0.1016" y1="1.6002" x2="0.1016" y2="1.6002" width="0.2032" layer="21"/>
+<wire x1="1.397" y1="0.508" x2="1.397" y2="-0.508" width="0.2032" layer="21"/>
+<wire x1="-0.1016" y1="-1.6002" x2="0.1016" y2="-1.6002" width="0.2032" layer="21"/>
+<wire x1="1.3598" y1="1.0162" x2="0.8098" y2="1.5662" width="0.2032" layer="51"/>
+<polygon width="0.127" layer="21">
+<vertex x="0" y="0"/>
+<vertex x="0.5588" y="0" curve="90"/>
+<vertex x="0" y="0.5588"/>
+</polygon>
+<circle x="0" y="0" radius="0.55764375" width="0.127" layer="21"/>
 </package>
 <package name="IPEX-20279-001E">
 <wire x1="-1.2" y1="1" x2="-1" y2="1.2" width="0.2032" layer="51" curve="-90"/>
